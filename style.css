@@ -1,54 +1,53 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
-    padding: 30px 0;
+    padding: 30px 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.5em;
 }
 
 header p {
-    margin: 5px 0 0;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 section {
-    max-width: 800px;
-    margin: 30px auto;
+    margin: 30px 20px;
     padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 section h2 {
-    color: #4CAF50;
-    margin-bottom: 10px;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
-section ul {
+ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-section ul li {
-    margin-bottom: 8px;
+ul li {
+    margin-bottom: 10px;
 }
 
 a {
-    color: #4CAF50;
+    color: #007bff;
     text-decoration: none;
 }
 
@@ -58,8 +57,8 @@ a:hover {
 
 footer {
     text-align: center;
-    padding: 15px 0;
-    background-color: #333;
+    padding: 15px;
+    background-color: #007bff;
     color: white;
     margin-top: 30px;
 }
